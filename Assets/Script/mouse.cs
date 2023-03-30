@@ -6,7 +6,7 @@ public class mouse : MonoBehaviour
 {
     public AudioSource meow;
 
-    private void OnMouseDown()
+    private void OnMouseUpAsButton()
     {
         Debug.Log("mouse click");
         meow.Play();
